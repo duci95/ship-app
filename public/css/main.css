@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+.btn-block{
+    font-size: 60px;
+    cursor: pointer;
+}
+a, a:hover, a:visited{
+    text-decoration: none !important;
+    color: white !important;
+}
+.fa-times{
+    color:red;
+    background: white;
+}
+.fa-edit, .fa-info-circle{
+    background: white;
+    color:royalblue;
+}
+.pointer{
+    cursor: pointer;
+}
+.fa-user-plus, .fa-plus-square{
+    font-size: 20px;
+    color: lightgreen;
+}
+.fa-long-arrow-left{
+    font-size: 17px;
+}
+.ranks{
+    display: none;
+}
+.move{
+    margin-left:200px;
+}

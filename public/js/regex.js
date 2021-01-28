@@ -1,0 +1,12 @@
+const reEmail =  /^[^@\s]{3,25}@[^@\s]{2,10}\.[^@\s]{2,7}$/;
+const rePassword =  /^[A-ZŠĐČĆŽa-zšđčćž?!&^#$%@*0-9]{8,15}$/;
+const emailWarning = "Wrong email format";
+const passwordWarning = "Wrong password format";
+const reNameSurname = /^[A-Za-z/s]{2,50}$/;
+const reShipName = /^[\sA-Za-z0-9-!]+$/;
+const nameWarning = 'Name is in bad format';
+const surnameWarning = 'Surname is in bad format';
+const listWarning = 'You must select at least one item from list';
+const permittedExtensions = ["gif", "png", "jpg"];
+const reSerial = /^[A-Za-z0-9]{8}$/;
+const serialWarning = 'Serial number is in bad format';
