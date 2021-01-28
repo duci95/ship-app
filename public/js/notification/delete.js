@@ -17,7 +17,7 @@ $('.delete').click(function (){
                       url: '/notifications/' + notification,
                       method: 'DELETE',
                       success:function(){
-                          // location.reload();
+                          location.reload();
                       },
                       error:function (){
                           $.notify('Notification was not successfully deleted',{
